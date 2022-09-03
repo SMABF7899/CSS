@@ -18,5 +18,13 @@ header {
 }
 
 #logo {
-    color: aqua;
+    color: blue;
+}
+
+.color-green {
+    color: green;
+}
+
+.background-yellow {
+    background-color: yellow;
 }
