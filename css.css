@@ -11,3 +11,12 @@ header {
     width: 424px;
     margin: auto;
 }
+
+.text {
+    color: blue;
+    font-style: oblique;
+}
+
+#logo {
+    color: aqua;
+}
