@@ -28,3 +28,16 @@ header {
 .background-yellow {
     background-color: yellow;
 }
+
+.color-green.background-yellow {
+    font-weight: bold;
+}
+
+#logo.color-green {
+    color: green;
+}
+
+a.background-yellow {
+    font-weight: bold;
+    font-family: Compset,sans-serif;
+}

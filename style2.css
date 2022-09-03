@@ -1,0 +1,11 @@
+.color-red {
+    color: red;
+}
+
+header .color-red {
+    font-weight: bold;
+}
+
+#header2 .my-text .color-red {
+    background-color: yellow;
+}
