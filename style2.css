@@ -26,6 +26,23 @@ a[href$="ir"] {
     font-style: oblique;
     font-weight: bold;
 }
+
 li[class~="item"] a {
     color: lightseagreen;
+}
+
+li > span {
+    background-color: brown;
+}
+
+li.item + span {
+    background-color: yellow;
+}
+
+li + span {
+    background-color: green;
+}
+
+li.item ~ span {
+    background-color: lightseagreen;
 }
