@@ -9,3 +9,23 @@ header .color-red {
 #header2 .my-text .color-red {
     background-color: yellow;
 }
+
+a[href] {
+    color: pink;
+}
+
+a[href="https://smabf.ir"] {
+    color: blue;
+}
+
+a[href*="selenium"] {
+    color: green;
+}
+
+a[href$="ir"] {
+    font-style: oblique;
+    font-weight: bold;
+}
+li[class~="item"] a {
+    color: lightseagreen;
+}
