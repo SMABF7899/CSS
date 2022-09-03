@@ -1,0 +1,10 @@
+@font-face {
+    font-family: TR2N;
+    src: url(fonts/Tr2n.ttf) format("truetype");
+}
+header {
+    background: black;
+    color: green;
+    font-family: TR2N;
+    font-size: 120px;
+}
