@@ -46,3 +46,38 @@ li + span {
 li.item ~ span {
     background-color: lightseagreen;
 }
+
+li:hover {
+    background-color: goldenrod;
+}
+
+li:hover a {
+    color: white;
+}
+
+ul li:first-child {
+    background-color: red;
+}
+
+ul li:first-child a {
+    color: green;
+}
+
+li::before {
+    content: " List Item ";
+    color: yellow;
+}
+
+li:after {
+    content: "After";
+    color: blue;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p::first-line {
+    color: blue;
+}
