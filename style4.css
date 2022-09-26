@@ -1,4 +1,8 @@
+html {
+    color: green;
+}
 p {
+    color: black;
     background-color: aqua;
     /*padding: 10px 10px 10px 10px;*/
     /*padding: 10px 10px 10px;*/
@@ -17,4 +21,8 @@ p {
 
 .header * {
     font-weight: bold;
+}
+
+p {
+    color: #bea504;
 }
