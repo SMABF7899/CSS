@@ -14,3 +14,7 @@ p {
     width: 400px;
     /*height: 264px;*/
 }
+
+.header * {
+    font-weight: bold;
+}
